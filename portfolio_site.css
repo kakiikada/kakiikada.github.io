@@ -125,7 +125,7 @@ header .fa-twitter:hover{
 }
 
 .text-1 p{
-  margin:15px;
+  margin:15px 50px;
   margin-bottom:200px;
 }
 
@@ -150,10 +150,33 @@ header .fa-twitter:hover{
   width:25%;
 }
 
+.block-set .photo{
+  height:50%;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-set .github{
+  background-image:url(git-hub.jpg);
+}
+
+.block-set .Scrapbox{
+  background-image:url(scrap-box.jpg);
+}
+
+.block-set .no-image{
+  background-color:rgba(92,215,164,1);
+}
+
+.block-set .twitter{
+  background-color:rgba(0,172,273,1);
+}
+
+
 .block-contents .photo{
   height:50%;
   width:100%;
-  background-color:blue;
 }
 
 .block-contents .item{

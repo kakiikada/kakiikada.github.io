@@ -40,6 +40,28 @@
 
 @media(max-width:670px ){
 
+
+  h1{
+    font-size:30px;
+    line-height:52px;
+  }
+
+  h2{
+    font-size:25px;
+    line-height:34px;
+  }
+
+  h3{
+    font-size:22px;
+    line-height:30px;
+  }
+
+  p{
+    font-size:12px;
+    line-height:24px;
+  }
+
+
   header p{
     margin-left:3px;
     font-size:10px;
@@ -51,13 +73,16 @@
   }
 
   .block-contents{
-    height:400vw;
+    height:600vw;
   }
+.block-set .photo{
+  height:66.6%;
+}
 
   .block-contents .block-set{
     float:left;
     text-align:center;
-    height:100vw;
+    height:150vw;
     width:100%;
   }
 
